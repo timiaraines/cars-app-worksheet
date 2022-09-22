@@ -2,6 +2,14 @@ import React, { useState } from 'react';
 import './App.css';
 
 function Cars() {
+/**
+ * Fields required for the car
+      "id",
+      "brand",
+      "name",
+      "releaseYear",
+      "color"
+ */
   const carFormInitialData = {
     id: 0,
     name: ''
